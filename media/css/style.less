@@ -1,0 +1,43 @@
+@import "boilerplate/boilerplate.less";
+@import "skeleton/base.css";
+@import "skeleton/layout.css";
+@import "skeleton/skeleton.css";
+
+body {
+    .container {
+        padding: 40px 0px 0px 0px;
+        
+        #menu {
+            min-height: 800px;
+
+            nav {
+                position: fixed;
+                width: 160px;
+
+                h3 {
+                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    letter-spacing: -1px;
+                    font-weight: bold;
+                }
+
+                #links {
+                    margin: 0px 0px 0px 20px;
+                    font-weight: bold;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .row {
+            margin: 20px 0px;
+
+            .columns {
+                margin: 10px 0px;
+                text-align: center;
+            }
+        }
+    }
+}
